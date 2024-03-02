@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/Lab1%20PC4/Desktop/animation.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>animation</title>
+
+	<style type="text/css">
+		.container{
+			background-color: black;
+		}
+
+		.box{
+			background-color: blue;
+			width: 250px;
+			height: 250px;
+			position: relative;
+			border-radius: 200px;
+			animation-name: abc;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+		}
+
+@keyframes abc{
+	0%{
+		top: 0px;
+		left: 0px;
+	}
+
+	25%{
+		top: 250px;
+		left: 0px;
+	}
+
+	75%{
+		top: 250px;
+		left:250px;
+	}
+
+	100%{
+		top: 0px;
+		left: 250px;
+	}
+
+
+	</style>
+
+
+
+
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="box"></div>	
+	</div>
+
+
+
+</body></html>
